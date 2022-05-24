@@ -73,8 +73,9 @@ input {
 @media screen and (max-width: 768px) {
 
   .sidebar-container{
-    height: 1015px;
+    height: 920px;
   }
+
 }
 @media screen and (max-width: 820px) {
 
@@ -91,6 +92,9 @@ input {
   .img-poki {
     margin-left: 0px;
   }
+  input{
+    margin: 0px 0px 3px 0px;
+    }
 
 }
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -145,18 +149,30 @@ input {
 /*View for tablets*/
 @media screen and (max-width: 768px) {
 
+  .image-container{
+    margin: 5%;
+  }
+  body{
+    justify-content: center;
+    
+  }
   .all-container {
-    width: 63%;
-    margin-right: 1%;
-    height: 950px;
+    width: 55%;
+    
+    height: 885px;
+  }
+  .extra-info{
+    margin: 0px;
   }
 
 }
 @media screen and (max-width: 820px) {
 
-  .all-container {
-    width: 63%;
-    margin-right: 1%;
+  .sidebar-container{
+    margin: 0px;
+  }
+  .poke-container{
+    margin: 0px;
   }
 
 }
