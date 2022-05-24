@@ -70,6 +70,29 @@ input {
 .list-p.marked {
   background-color: #700808;
 }
+@media screen and (max-width: 768px) {
+
+  .sidebar-container{
+    height: 1015px;
+  }
+}
+@media screen and (max-width: 820px) {
+
+  .sidebar-container {
+    width: 30%;
+  }
+  .poke-container{
+    height: 1050px;
+  }
+  .text-p-n {
+    margin-left: 0px;
+  }
+
+  .img-poki {
+    margin-left: 0px;
+  }
+
+}
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------ScrollBar---------------------------------------------*/
 .poke-container::-webkit-scrollbar {
@@ -117,6 +140,25 @@ input {
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+/*View for tablets*/
+@media screen and (max-width: 768px) {
+
+  .all-container {
+    width: 63%;
+    margin-right: 1%;
+    height: 950px;
+  }
+
+}
+@media screen and (max-width: 820px) {
+
+  .all-container {
+    width: 63%;
+    margin-right: 1%;
+  }
+
 }
 
 /*-------------------------------------------------------------------------------------------------------*/
@@ -188,6 +230,27 @@ span {
   margin: 0px;
 }
 
+/*View for tablets*/
+@media screen and (max-width: 820px) {
+
+  .evo-info{
+    gap: 2%;
+  }
+  .img-evo .text-e-n{
+    font-size: 1em;
+  }
+  .img-evo .img-extra {
+    width: 7em;
+    height: 7em;
+  }
+  .h1CE {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    
+  }
+
+}
 /*-------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------TextNoPokemon----------------------------------------------*/
 .no-p {
