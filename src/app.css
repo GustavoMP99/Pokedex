@@ -1,0 +1,197 @@
+body {
+  background-color: #e34040;
+  color: #e0caca;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+/*---------------------------------------------------------SideBar------------------------------------------------------------*/
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+input {
+  float: right;
+  padding: 6px;
+  width: 94%;
+  margin: 30px 0px 0px 30px;
+  font-size: 17px;
+  height: 3%;
+  border-radius: 30px;
+  padding: 3%;
+}
+.poke-container {
+  text-align: center;
+  border: solid 2px;
+  border-radius: 8px;
+  border-color: #ff8585;
+  width: 100%;
+  height: 800px;
+  overflow-y: scroll;
+  margin: 30px;
+  padding: 0px;
+}
+.list-p {
+  list-style: none;
+  width: 99%;
+  background-color: #480202;
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+  border: solid 1.5px;
+  border-color: #700808;
+  margin: 0px;
+  align-items: center;
+  font-family: "Helvetica";
+}
+.img-poki {
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+}
+.text-p-n {
+  margin-left: 40px;
+  width: 55%;
+  text-align: left;
+  font-weight: bold;
+}
+.text-p-i {
+  text-align: right;
+  font-size: 0.9em;
+}
+.list-p:hover {
+  background-color: #853535;
+}
+.list-p.marked {
+  background-color: #700808;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------ScrollBar---------------------------------------------*/
+.poke-container::-webkit-scrollbar {
+  width: 15px;
+}
+
+.poke-container::-webkit-scrollbar-track {
+  background: #b13333;
+  border-radius: 9px;
+}
+
+.poke-container::-webkit-scrollbar-thumb {
+  background-color: #e34040;
+  border-radius: 20px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------Extra-info------------------------------------------------------------*/
+.all-container {
+  border: solid 2px;
+  background-color: white;
+  border-color: #ff8585;
+  width: 70%;
+  margin: 30px;
+  border-radius: 8px;
+  display: flex;
+  color: black;
+  flex-wrap: wrap;
+}
+/*Image extrainfo*/
+.img-extra {
+  width: 200px;
+  height: 200px;
+}
+/*Text extraifo name*/
+.text-e-n {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  margin: 0px;
+}
+.image-container {
+  margin: 40px 0px 0px 70px;
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------Container types---------------------------------------------*/
+.container-e-t {
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
+.text-e-t {
+  background-color: #f9e6e6;
+  color: black;
+  font-size: 1.2em;
+  border-radius: 14px;
+  padding: 4px;
+  width: 45%;
+  text-align: center;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------Info Pokemon---------------------------------------------*/
+hr {
+  width: 90%;
+  height: 2px;
+  background-color: #e34040;
+  border-radius: 130px;
+}
+.nen {
+  font-weight: bold;
+}
+.info-about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+span {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+.evo-info {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  margin: 0px 5% 0px 5%;
+}
+.extra-info {
+  width: 100%;
+  margin: 30px 30px 0px 30px;
+  display: flex;
+  height: 40%;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------Evolutions Pokemon------------------------------------------*/
+.img-evo {
+  display: flex;
+  flex-direction: column;
+}
+.h1CE {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------TextNoPokemon----------------------------------------------*/
+.no-p {
+  width: 100%;
+  text-align: center;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
